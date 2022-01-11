@@ -1,0 +1,2 @@
+# post_trend_ranking_in_twitter
+twitterの日本のトレンドランキングbot
