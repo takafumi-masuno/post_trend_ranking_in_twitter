@@ -1,1 +1,0 @@
-web: python post_trend_ranking_in_twitter.py
