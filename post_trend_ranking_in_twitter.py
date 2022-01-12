@@ -15,7 +15,7 @@ tweet_text = ''
 
 # タイムラインで降順になるように、50位からループを回す
 for i in reversed(trend_list[0]['trends']):
-    # ハッシュが含まれているか
+    # ハッシュが含まれているか、含まれていなかったら#をつける
     if  '#' in i['name']:
         tweet_text = str(trend_list[0]['trends'].index(i)+1) + '位 ' + i['name'] + '\n' + tweet_text
     else:
